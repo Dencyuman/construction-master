@@ -1,0 +1,179 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+  background: #ACBB78;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,rgb(240, 240, 240),  #ACBB78);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,rgb(197, 209, 195),  #ACBB78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1700px;
+  margin:0 auto;
+  padding:0 30px;
+  width:100%
+}
+
+header {
+  height:80px;
+  background-color: rgba(34,49,52,.9);
+}
+
+
+
+.header_logo {
+  float:left;
+  width:300px;
+  margin-top: 15px;
+}
+
+.small_logo{
+  display: none;
+  width:170px;
+}
+
+.header_info a{
+  color:black;
+}
+
+.btn{
+  display: inline-block;
+  color:#fff;
+  padding:8px 15px;
+  opacity:0.8;
+  border-radius: 4px;
+}
+
+.btn:hover{
+  opacity:1;
+}
+
+.btn:active{
+  box-shadow: none;
+  position:relative;
+  top:4px;
+}
+
+.Twitter{
+  background-color:#1da1f2;
+  margin-right: 10px;
+  box-shadow:0 4px #1A638D;
+}
+
+.Github{
+  background-color:#4b4444;
+  box-shadow:0 4px #1b1818;
+  margin-right: 10px;
+}
+
+.btn-wrapper{
+  float:right;
+  margin-top:23px;
+}
+
+h1{
+  font-size: 24px;
+  border-bottom: 3px solid #4a8f4a;
+  border-left: 5px solid #4a8f4a;
+  margin:30px 0 10px 0;
+  padding-left: 20px;
+}
+
+h2{
+  font-size: 18px;
+}
+
+p{
+  margin:0 30px;
+}
+
+.pageline{
+  padding:5px 0 0 10px;
+}
+
+.pageline p{
+  display: inline-block;
+  background-color: #fff;
+  color: black;
+  font-size: 18px;
+  padding: 5px 0;
+  border-radius: 4px;
+  margin:5px 0;
+}
+
+.pageline a{
+  color:black;
+}
+
+.page{
+  padding:5px 10px;
+  border-radius: 4px;
+}
+
+.page:hover{
+  transition: all 0.5s;
+  background-color: #8fbc8f;
+}
+
+footer{
+  height:80px;
+  background-color: #191970;
+}
+
+.footer_logo{
+  width:250px;
+  float:left;
+  margin:20px 0;
+}
+
+footer p{
+  margin:15px 0;
+  font-size:17px;
+  color:#696969;
+  float:right;
+}
+
+.wrapper{
+  height:800px;
+  min-width: 190px;
+  background-image: url(../img/small_making.jpg);
+  background-size:cover;
+}
+
+h2{
+  color:#f0f8ff;
+  margin:350px 0 100px 0;
+  display:inline-block;
+  font-size: 24px;
+  padding:20px 40px;
+  background-color: #0c5074;
+  background-clip:padding-box;
+  border:20px solid rgba(0,167,255,.6);
+}
+
+.backbtn{
+  color:#000000;
+  font-size: 24px;
+  margin:30px;
+  padding:20px 40px;
+  background-color:#e9e9e9;
+  margin-right: 10px;
+  box-shadow:0 4px #2f4f4f;
+}
